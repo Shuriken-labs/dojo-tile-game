@@ -15,7 +15,7 @@ check_cmd() {
 
 need_cmd jq
 
-export RPC_URL="http://localhost:5050"
+export RPC_URL="http://0.0.0.0:5050"
 
 export WORLD_ADDRESS=$(cat ./manifests/dev/manifest.json | jq -r '.world.address')
 

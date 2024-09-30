@@ -72,6 +72,9 @@ export const DojoProvider = ({
                     count,
                     copyToClipboard,
                     applyFromClipboard,
+                    checkIsDeployed: function (address: string, deployTx?: string): Promise<boolean> {
+                        throw new Error("Function not implemented.");
+                    }
                 },
             }}
         >

@@ -961,7 +961,7 @@
     "seed": "boot_camp_paint",
     "metadata": {
       "profile_name": "dev",
-      "rpc_url": "http://localhost:5050/"
+      "rpc_url": "http://0.0.0.0:5050/"
     },
     "name": "dojo::world::world"
   },
